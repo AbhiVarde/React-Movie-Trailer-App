@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Monserrat&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Monserrat',sans-serif;
+}
+
+body {
+  background-color: #1b2034;
+  color: #fff;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  font-size: 22px;
+}
+
+.search {
+  height: 10vh;
+}
+
+.search>input,
+button {
+  box-sizing: border-box;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 20px;
+  justify-content: space-between;
+}
+
