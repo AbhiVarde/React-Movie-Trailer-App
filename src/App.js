@@ -27,7 +27,6 @@ function App() {
         <button onClick={() => {handleSearch()}}>
           Search 
         </button>
-        <br>
       </div>
       <ReactPlayer url={videoURL} controls={true} />
     </div>
